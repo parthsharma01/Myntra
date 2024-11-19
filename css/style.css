@@ -1,0 +1,295 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    font-family: "Assistant", sans-serif;
+}
+.main{
+    width: 100%;
+}
+.header{
+    width: 1200px;
+    padding: 20px 0px;
+    display: flex;
+    align-items: center;
+    margin: auto;
+    justify-content: space-between;
+    top: 0;
+    position: sticky;
+    z-index: 1000;
+}
+.nav-menu{
+    color: #282C3F;
+    font-size: 14px;
+    font-weight: 700;
+    display: flex;
+    gap: 30px;
+}
+.search{
+    width: 500px;
+    padding: 10px 1px;
+    border-radius: 2px;
+    background-color: #F5F5F6;
+    display: flex;
+}
+.search-icon{
+    margin: 0px 15px;
+}
+.search input{
+    width: 300px;
+    border: none;
+    background-color: transparent;
+}
+.search input:focus {
+    outline: none;
+
+}
+.profile{
+    text-align: center;
+    font-size: 14px;
+}
+.account{
+    display: flex;
+    gap: 20px;
+}
+.banner{
+    display: flex;
+    justify-content: center;
+    height: 180px;
+    margin-top: 20px;
+}
+.banner2{
+    display: flex;
+    justify-content: center;
+    height: 370px;
+}
+.banner3{
+    display: flex;
+    justify-content: center;
+    height: 120px;
+}
+.banner4{
+    display: flex;
+    justify-content: center;
+    height: 25px;
+}
+.banner5{
+    display: flex;
+    justify-content: center;
+    height: 78px;
+}
+.banner6{
+    display: flex;
+    justify-content: center;
+    height: 130px;
+}
+.banner7{
+    display: flex;
+    justify-content: center;
+    height: 130px;
+}
+.banner8{
+    display: flex;
+    padding: 20px 0px 15px;
+    height: 240px;
+}
+.banner9{
+    display: flex;
+    height: 105px;
+}
+.banner10{
+    display: flex;
+    padding: 20px 0px;
+    height: 310px;
+}
+.banner11{
+    display: flex;
+    justify-content: center;
+    padding: 20px 0px;
+    height: 118px;
+}
+.banner12row1{
+    display: flex;
+    flex-flow: row;
+    height: 270px;
+}
+.banner12row6{
+    display: flex;
+    justify-content: center;
+    align-content: center;
+    height: 270px;
+}
+.banner13{
+    display: flex;
+    height: 220px;
+}
+
+/* Home&Living CSS */
+
+.homebanner{
+    display: flex;
+    height: 340px;
+    padding: 20px 50px;
+}
+
+
+
+/* Bottom image css */
+
+.banner-bottom{
+    display: flex;
+    height: 153px;
+    justify-content: center;
+}
+.banner-bottom-img{
+    display: flex;
+    justify-content: center;
+}
+
+
+/* Footer CSS start*/
+
+
+
+
+.footer {
+    display: flex;
+    justify-content: space-between;
+    width: 90%;
+    padding: 20px;
+    background-color: #ffffff;
+    color: #333;
+    
+}
+.footer-column {
+    flex: 1;
+    margin: 0 20px;
+}
+.footer-column h4 {
+    font-size: 14px;
+    font-weight: bold;
+    margin-bottom: 10px;
+    color: #333;
+}
+.footer-column ul {
+    list-style: none;
+    padding: 0;
+    margin: 0;
+}
+.footer-column ul li {
+    margin-bottom: 5px;
+    font-size: 13px;
+}
+.footer-column ul li a {
+    text-decoration: none;
+    color: #333;
+}
+.app-icons img {
+    width: 120px;
+    margin-right: 10px;
+}
+.social-icons a {
+    text-decoration: none;
+    color: #333;
+    margin-right: 10px;
+    font-size: 18px;
+}
+.footer-right {
+    text-align: right;
+    font-size: 13px;
+}
+
+
+/* Tshirt Css */
+
+        body {
+            margin: 0;
+            padding: 20px;
+        }
+
+        /* Breadcrumbs */
+        .breadcrumb {
+            font-size: 14px;
+            color: #666;
+            margin-bottom: 10px;
+        }
+
+        /* Main container */
+        .container {
+            display: flex;
+            align-items: center;
+            justify-content: space-between;
+            border-bottom: 1px solid #ddd;
+            padding: 10px 0;
+            margin-bottom: 20px;
+        }
+
+        /* Title */
+        .title {
+            font-size: 24px;
+            font-weight: bold;
+        }
+
+        /* Filters section */
+        .filters-container {
+            display: flex;
+            align-items: center;
+            gap: 20px;
+            margin-top: 5px;
+        }
+
+        .filters {
+            width: 200px;
+            font-size: 14px;
+            font-weight: bold;
+            background-color: aqua;
+        }
+
+        /* Filter options */
+        .filter-options {
+            display: flex;
+            gap: 15px;
+        }
+
+        .filter-options div {
+            position: relative;
+            cursor: pointer;
+            font-size: 14px;
+            color: #333;
+        }
+
+        .filter-options div::after {
+            content: '▼';
+            font-size: 12px;
+            position: absolute;
+            right: -15px;
+            top: 2px;
+        }
+
+        /* Sort by dropdown */
+        .sort {
+            font-size: 14px;
+            display: flex;
+            align-items: center;
+            border: 1px solid #ddd;
+            padding: 5px 10px;
+            border-radius: 4px;
+            cursor: pointer;
+        }
+
+        .sort select {
+            font-size: 14px;
+            border: none;
+            outline: none;
+            background: transparent;
+            color: #333;
+        }
+        
+
+
+        /* Tshirt img start */
+        .tshirt-img{
+            display: flex;
+            width: 100px;
+            height: 450px;
+        }

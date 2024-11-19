@@ -1,0 +1,81 @@
+<!DOCTYPE html>
+<html lang="en">
+    <head>
+        <meta charset="UTF-8">
+        <meta name="viewport" content="width=device-width, initial-scale=1.0">
+        <title>Product Filter</title>
+        <link rel="stylesheet" href="css/style.css">
+        <link href="https://fonts.googleapis.com/css2?family=Assistant:wght@200..800&display=swap" rel="stylesheet">
+        <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.6.0/css/all.min.css" integrity="sha512-Kc323vGBEqzTmouAECnVceyQqyqdsSiqLQISBL29aUW4U/M7pSPA/gEUZQqv1cwx4OnYxTxve5UMg5GT6L4JJg==" crossorigin="anonymous" referrerpolicy="no-referrer" />
+    </head>
+    <body>
+        <div class="main">
+            <!-- Header section start -->
+            <div class="header">
+                <div class="logo"></div>
+                <img src="images/myntra logo.png" width="50px" height="50px">
+                <div class="nav-menu">
+                    <div>Men</div>
+                    <div>Women</div>
+                    <div>Kids</div>
+                    <div>Home & Living</div>
+                    <div>Beauty</div>
+                    <div>Studio</div>
+                </div>
+                <div class="search">
+                    <div class="search-icon">
+                        <i class="fa-solid fa-magnifying-glass"></i>
+                    </div>
+                    <div>
+                        <input type="text" placeholder="Search for products, brands and more">
+                    </div>
+                </div>
+                <div class="account">
+                    <div class="profile">
+                        <i class="fa-regular fa-user"></i><br>
+                        Profile 
+                    </div>
+                    <div class="profile">
+                        <i class="fa-regular fa-heart"></i><br>
+                        Wishlist 
+                    </div>
+                    <div class="profile">
+                        <i class="fa-solid fa-bag-shopping"></i><br>
+                        Bag 
+                    </div>
+                </div>
+            </div>
+            <!-- Header section end -->
+            <!-- Breadcrumbs -->
+            <div class="breadcrumbs">
+                Home / Clothing / Men T-Shirts
+            </div>
+
+            <!-- Container for the title, filters, and sorting -->
+            <div class="container">
+                <div>
+                    <div class="title">Men T-Shirts - 153814 items</div>
+                    <div class="filters-container">
+                        <div class="filters">FILTERS</div>
+                        <div class="filter-options">
+                            <div>Bundles</div>
+                            <div>Country of Origin</div>
+                            <div>Size</div>
+                        </div>
+                    </div>
+                </div>
+                <!-- Sort by option -->
+                <div class="sort">
+                    <label for="sort">Sort by: </label>
+                        <select id="sort">
+                            <option value="recommended" selected>Recommended</option>
+                            <option value="popularity">Popularity</option>
+                            <option value="newest">Newest</option>
+                            <option value="price_low_high">Price: Low to High</option>
+                            <option value="price_high_low">Price: High to Low</option>
+                        </select>
+                </div>
+            </div> 
+        </div>       
+    </body>
+</html>
